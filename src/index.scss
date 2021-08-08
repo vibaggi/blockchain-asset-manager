@@ -1,0 +1,8 @@
+
+// ! The grid columns configuration needs to be before the carbon scss import
+$feature-flags: (
+    grid-columns-16: true,
+);
+
+
+@import 'carbon-components/scss/globals/scss/styles.scss';
